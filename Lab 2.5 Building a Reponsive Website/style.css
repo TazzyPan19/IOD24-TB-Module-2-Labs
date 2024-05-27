@@ -1,0 +1,309 @@
+/*  ANCHOR - Global/General Styling*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Pixelify Sans', 'Franklin Gothic Medium', sans-serif;
+    font-size: 26px;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    margin-bottom: 0.5em;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: #000000;
+    text-decoration-line: none;
+}
+
+.light-grey-header {
+    color: #bdbdbd;
+}
+
+.flex-component-any {
+    display: flex;
+}
+
+.nav-links-marg {
+    margin-left: 10px;
+}
+
+.background-ground {
+    background-image: url("imgs/repeated_tile_grd.png"), url("imgs/repeated_tile_sky.png");
+    background-repeat: repeat-x, repeat;
+    background-position: left bottom, left bottom;
+}
+
+.page-middle-align {
+    background-color: #463094;
+    height: 100%;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    contain: content;
+}
+
+.main-content-wrapper {
+    /* background-color: #da7a77; */
+    background-color: #ffffff;
+    height: 160vh;
+    padding: 40px;
+}
+
+/*  ANCHOR - Header Content with links*/ 
+
+.content-right > h3 {
+    text-align: right;
+}
+
+.nav-socials-wrapper {
+    background-color: #7fffd4;
+    background-color: #ffffff;
+    width: 70%;
+    padding: 40px;
+}
+
+.img-wrapper {
+    background-color: #6eb4d4;
+    background-color: #ffffff;
+    width: 30%;
+    padding: 40px 0px 40px 40px;
+}
+
+.img-style {
+    float: right;
+}
+
+.social-href {
+    margin-bottom: 10px;
+}
+
+.contact-email {
+    margin-bottom: 10px;
+}
+
+.contact-phone {
+    margin-bottom: 10px;
+}
+
+.wrapper-flex-component {
+    display: inline-flex;
+    width: 100%;
+}
+
+.header-title-left {
+    width: 50%;
+}
+
+.header-title-right {
+    width: 50%;
+}
+
+.header-title-right > h3 {
+    text-align: right;
+}
+
+/*  ANCHOR - Footer Content*/
+
+footer {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content-box-ft {
+    background-color: #191919;
+    padding: 40px;
+}
+
+/* NOTE - Desktop/Laptop Resolution*/
+@media only screen and (max-width: 1440px) {
+    body {
+        font-family: 'Pixelify Sans', 'Franklin Gothic Medium', sans-serif;
+        font-size: 20px;
+    }
+
+    .main-content-wrapper {
+        background-color: #da7a77;
+        background-color: #ffffff;
+        height: 100%;
+        padding: 40px;
+    }
+
+    .page-middle-align {
+        background-color: #463094;
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border-left: solid black 4px;
+        border-right: solid black 4px;
+        contain: content;
+    }
+
+    .img-style {
+        height: auto;
+        width: 280px;
+    }
+}
+
+/* NOTE - Tablet Resolution, reduced font size, removed background*/
+@media only screen and (max-width: 768px) {
+    body {
+        font-family: 'Pixelify Sans', 'Franklin Gothic Medium', sans-serif;
+        font-size: 20px;
+    }
+    
+    .background-ground {
+        background-image: url();
+        background-repeat: repeat;
+        background-position: left bottom;
+    }
+    
+    .page-middle-align {
+        background-color: #463094;
+        height: 100%;
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+        contain: content;
+    }
+
+    .main-content-wrapper {
+        background-color: #da7a77;
+        background-color: #ffffff;
+        height: 100%;
+        padding: 40px;
+    }
+
+    .imga {
+        height: auto;
+        width: 240px;
+    }
+
+    .img-wrapper {
+        background-color: #ffffff;
+        width: auto; 
+        padding: 40px;
+    }
+
+    .flex-component-any {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .nav-socials-wrapper {
+        background-color: #ffffff;
+        width: auto;
+        padding: 40px;
+    }
+
+    .nav-content-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-text-center {
+        text-align: center;
+    }
+}
+
+/* NOTE - */
+@media only screen and (max-width: 500px) {
+    .main-content-wrapper {
+        background-color: #da7a77;
+        background-color: #ffffff;
+        height: 100%;
+        padding: 40px;
+    }
+
+    .fill-gap {
+        width: 100%;
+    }
+}
+
+/* NOTE - Mobile Resolution, reduced font size, removed background*/
+@media only screen and (max-width: 320px) {
+    body {
+        font-family: 'Pixelify Sans', 'Franklin Gothic Medium', sans-serif;
+        font-size: 16px;
+    }
+    
+    .background-ground {
+        background-image: url();
+        background-repeat: repeat;
+        background-position: left bottom;
+    }
+    
+    .page-middle-align {
+        background-color: #463094;
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+        margin-right:0;
+        border-left: 0;
+        border-right: 0;
+        contain: content;
+    }
+
+    .img-style {
+        height: auto;
+        width: 100%;
+    }
+
+    .img-wrapper {
+        background-color: #ffffff;
+        width: auto;
+        padding: 40px;
+    }
+
+    .flex-component-any {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .nav-socials-wrapper {
+        background-color: #ffffff;
+        width: auto;
+        padding: 40px;
+    }
+
+    .nav-content-center {
+        display: flex;
+        align-content: center;
+    }
+
+    .nav-text-center {
+        text-align: center;
+    }
+}
+
+/* NOTE - Checklist for Lab 5 - Responsive Website
+    
+Changing font-size
+Changing flexbox direction
+Adjusting flexbox parameters and aligning text
+
+*/

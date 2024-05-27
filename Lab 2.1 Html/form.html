@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Module 2 | Lab 1 HTML</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML Practice">
+  <meta name="keywords" content="HTML">
+  <meta name="author" content="Timothy Branco">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="index.html">Home</a>
+      <a href="#">Form</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>HTML Forms, input, label, select, option, button</h2>
+      <form method="POST" action="http://localhost:3000/profile">
+        <div>
+          <label for=""> first name:</label><br>
+          <input value="name1" name="firstname" type="text">
+        </div><br>
+        <div>
+          <label for=""> last name</label><br>
+          <input value="name2" name="lastname" type="text">
+        </div><br>
+
+        <div>
+          <input type="radio" ...>
+          <label value="button1" name="HTML5" for="">HTML5</label>
+        </div><br>
+        <div>
+          <input type="radio" ...>
+          <label value="button2" name="CSS" for="">CSS</label>
+        </div><br>
+        <div>
+          <input type="radio" ...>
+          <label value="button3" name="JavaScript" for="">JavaScript</label>
+        </div><br>
+        <div>
+
+          <input type="checkbox" ...>
+          <label value="button4" name="HTML5" for="">Subaru</label>
+        </div><br>
+        <div>
+          <input type="checkbox" ...>
+          <label value="button5" name="CSS" for="">Mazada</label>
+        </div><br>
+        <div>
+          <input type="checkbox" ...>
+          <label value="button6" name="JavaScript" for="">Holden</label>
+        </div><br>
+
+        <div>
+          <select>
+            <option value="option1" name="Subaru" >Subaru</option>
+            <option value="option2" name="Mazada">Mazada</option>
+            <option value="option3" name="Holden">Holden</option>
+          </select>
+        </div><br>
+        <div>
+            <button type="submit">Submit Form</button>
+        </div><br>
+      </form>
+    </article>
+  </main>
+
+  <footer>Copyright &copy; 2024</footer>
+</body>
+
+</html>
