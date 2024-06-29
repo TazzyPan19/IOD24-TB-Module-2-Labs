@@ -1,7 +1,7 @@
 # IOD24 Module 2: Lab Works
 
-- Lab 1
-- Lab 2
-- Lab 3
-- Lab 4
-- Lab 5
+- Lab 1 HTML
+- Lab 2 CSS
+- Lab 3 Flexbox
+- Lab 4 Build a Website
+- Lab 5 Build a Responsive Website
